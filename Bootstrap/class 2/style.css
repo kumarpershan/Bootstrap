@@ -1,0 +1,563 @@
+body{
+    background-color: rgb(182, 179, 177);
+}
+
+
+.navbar{
+    background-color: rgb(2, 105, 105) !important;
+}
+
+.navbar-brand{
+    font-family: serif !important;
+    font-style: italic;
+}
+
+.icon{
+    /* margin-left:10px !important; */
+    margin: 0.5rem !important;
+    font-size:xxx-large  !important;
+}
+
+ul{
+    display: flex !important;
+}
+.navli{
+    margin: 0 25px ;
+    list-style: none !important;
+   
+}
+.nav-link :hover{
+    color: white !important;
+}
+
+#button1{
+    justify-content: center;
+    width: 100% !important;
+    height: 45px !important;
+    border-radius: 50px !important;
+    border: none;
+    background-color: rgb(221, 123, 12);
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    font-weight: 500;
+    font-style: bold;
+}
+#button1:hover{
+    color: rgb(255, 255, 255);
+}
+
+/* section */
+
+section{
+    background-color: rgb(47, 61, 61) !important;
+    height: 89vh ;
+}
+.head{
+    /* background-color:blueviolet ; */
+    display: flex;
+    justify-content: center;
+  
+}
+#headerh1{
+    /* background-color: brown; */
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 14%;
+}
+ .search_container{
+    /* background-color: rgb(173, 129, 64); */
+    width: 50%;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+    position: relative;
+    margin: auto;
+} 
+
+.search-container:hover {
+    animation: hoverShake 0.15s linear 3;
+}
+.search-container:hover>.search-input {
+    width: 400px;
+}
+
+.search_input{
+    
+    border: none;
+    border-radius: 40px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: black;
+    font-size: small;
+ 
+}
+.search_button{
+   
+    border: none;
+    border-radius: 30px;
+    position: absolute;
+    height: 46px;
+    width: 12%;
+    background-color: rgb(53, 115, 117);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: 20px;
+    margin-top: 3.5px;
+    margin-left:80%;
+}
+#logo2{
+
+    position: absolute;
+    color: rgb(0, 0, 0);
+    margin-right: 85%;
+    font-size: x-large;
+    margin-top: 5px;
+    /* margin-left: 2px; */
+}
+
+/* courses */
+.courses {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.course-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.course-head h1 {
+    font-size: 45px;
+}
+
+.course-p{
+    display: flex;
+    margin: 40px 20px;
+}
+
+.course-p p{
+    margin: 0 20px;
+    color: rgb(0, 0, 0) !important;
+    font-size: 30px;
+}
+
+.first {
+    color: #000000;
+    text-decoration: underline;
+    text-underline-offset: 30px;
+}
+
+.course-p.sec:hover {
+    color: #175b9b;
+    transition: 0.4s;
+    text-decoration: underline;
+    text-underline-offset: 30px;
+    cursor: pointer;
+}
+
+/* card */
+.photo{
+    display: flex;
+    width: 100% !important;
+    margin: auto;
+    height: 50vh;
+    margin-top: 10px;
+    /* align-items: center !important ; */
+   text-align: center;
+}
+.card{
+    margin-left: 14px;
+    border: 2px solid #000000;
+    box-shadow: 10px 15px 20px rgb(0, 0, 0);
+
+}
+.image{
+    height: 20vh !important;
+    /* width: 80% !important; */
+   margin: auto;
+}
+
+/* TUTOR */
+
+
+.tutor {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 12em;
+    background-color: black;
+    height: 45%;
+    color: rgb(255, 255, 255);
+   
+}
+
+.tutor h1 {
+    font-size: 45px;
+    margin: 10px 0;
+    color: rgb(26, 121, 199);
+}
+
+.tutor h3 {
+    font-size: 23px;
+    margin: 5px 0;
+    font-weight: bold;
+    color: white;
+
+}
+
+.tutor h4 {
+    font-size: 23px;
+    margin: 5px 0;
+    color: #ffffff;
+
+}
+
+.tutor p {
+    font-size: 22px;
+    color: #ffffff;
+    margin: 5px 0;
+
+}
+
+.tutor img {
+    /* width: 30%; */
+    margin: auto;
+    height: 80vh;
+    margin-top: 10px;
+    box-shadow: -10px 15px 20px rgb(255, 255, 255);
+}
+
+
+
+/* REVIEWS */
+
+.heading h1 {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    font-size: 45px;
+}
+
+.Reviews {
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.Review-card {
+    /* display: flex; */
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    box-shadow: 10px 15px 20px rgb(0, 0, 0);
+    margin: 0px 20px;
+    border-radius: 10px;
+
+}
+
+.Review-card:hover {
+    transform: translateY(-8px);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.Review-card h2,
+p {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #717275;
+
+}
+
+.Review-card h2 {
+    font-size: 25px;
+    color: black;
+}
+
+.Review-card img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+/* GET IN TOUCH  */
+
+.get-in-head h1 {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    font-size: 45px;
+    /* height: 50vh; */
+
+}
+
+.get-in {
+    background-color: #646464;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+iframe{
+    margin-top: 5px !important;
+}
+
+.address h3 {
+    margin: 15px 20px;
+    color: #000000;
+}
+
+.address h2 {
+    margin: 15px 20px;
+}
+
+.address span {
+    color: #80d0c7;
+}
+
+/* FOOTER  */
+
+.about {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+
+}
+
+
+footer div {
+    margin: 80px 65px;
+    cursor: pointer;
+}
+
+footer p:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+footer div p {
+    color: #8ed3ee;
+}
+
+footer div h2 {
+    color: #3a83e2;
+}
+#facebook{
+ display: flex;
+}
+
+.end {
+    text-align: center;
+    color: #000000;
+    font-weight: 70px;
+    font-family: serif;
+}
+#h4{
+    font-size: xx-large;
+}
+
+.end span {
+    color: #13547a;
+}
+
+
+/* MEDIA QUERY  */
+
+@media screen and (max-width:768px) {
+   
+
+    .photo{
+        display: flex;
+        flex-wrap: wrap !important;
+        align-items: center !important;
+        flex-direction: row;
+       justify-content: center !important;
+        /* margin-left: 10% !important; */
+    }
+
+    .card{
+        margin-top: 10%;
+        width: 40% !important;
+        margin:40px 20px ;
+     
+    
+
+    }
+
+  .tutor{
+    margin-top: 200%;
+    align-items: center;
+    width: 80%;
+  }
+
+    .tutor img {
+
+        width: 70% !important;
+        margin-top: 30% ;
+    }
+
+    .Reviews {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
+    .Review-card {
+        width: 40% ;
+        margin: 40px 20px;
+    }
+
+    .about {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        text-align: center !important;
+    }
+
+    footer div {
+        margin: 40px 35px !important;
+    }
+
+
+    .get-in iframe {
+        width: 100% !important;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+
+    .head h1 {
+        font-size: 45px !important;
+    }
+
+    .get-in {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
+    .get-in iframe {
+        width: 100% !important;
+    }
+
+    .tutor img {
+        width: 80% !important;
+    }
+
+    .tutor p {
+        font-size: 15px !important;
+    }
+
+    .about {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .cards {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .card {
+        width: 80% !important;
+        margin: 20px 0 !important;
+    }
+
+    .Reviews {
+        display: flex !important ;
+        align-items: center !important ;
+        flex-direction: column !important;
+    }
+
+    .Review-card {
+        width: 80% ;
+        margin: 20px ;
+    }
+
+    footer div {
+        margin: 40px 35px !important;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:400px) {
+
+    .head h1 {
+        font-size: 35px !important;
+    }
+
+    .get-in {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
+    .get-in iframe {
+        width: 100% !important;
+    }
+
+    .tutor img {
+        width: 80% !important;
+    }
+
+    .tutor p {
+        font-size: 15px !important;
+    }
+
+    .about {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .cards {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .card {
+        width: 80% !important;
+        margin: 20px 0 !important;
+    }
+
+    .Reviews {
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }
+
+    .Review-card {
+        width: 80% ;
+        margin: 20px 0 ;
+    }
+
+    footer div {
+        margin: 40px 35px !important;
+    }
+
+}
